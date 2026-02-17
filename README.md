@@ -157,7 +157,13 @@ The RTC keeps raw time and does not adjust itself.
 
 ## 📸 Photos
 
-![Moon Phase Project](photo1.jpg)
+<p align="center">
+  <a href="GALLERY.md">
+    <img src="photos/00.jpg" width="600">
+  </a>
+</p>
+
+Full build photo gallery → [View Gallery](GALLERY.md)
 
 ---
 

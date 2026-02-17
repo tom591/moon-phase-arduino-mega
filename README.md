@@ -55,6 +55,17 @@ It is responsible for:
 - Controlling RGB LED day-phase indication  
 - Handling special calendar days  
 
+### 🖥 Display Layout
+
+The TFT display contains three text rows at the bottom:
+
+1. **First row** – Moon age in days / Moon illumination in percentage  
+   (updated once per day at midnight)
+
+2. **Second row** – Current moon phase name  
+
+3. **Third row** – Current date in format `DD.MM.YYYY`
+
 The screen is not continuously recalculated.  
 A full redraw happens only when the day changes, which keeps the system efficient.
 

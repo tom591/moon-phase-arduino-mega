@@ -203,7 +203,9 @@ Fritzing project file (.fzz) is also available directly in this repository:
   https://www.laskakit.cz/en/keyes--ky-009-rgb-smd-led-5050-modul/
 
 - 220Ω resistors (for RGB LED current limiting)  
-- 5V Power Supply (USB or external source)  
+- 5V Power Supply (USB or external source)
+- 100nF ceramic capacitor (power decoupling)
+- 10µF electrolytic capacitor (power stabilization)
 
 (Used modules are examples — equivalents should work as well.)
 

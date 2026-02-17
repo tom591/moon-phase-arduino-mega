@@ -190,6 +190,8 @@ https://fritzing.org/projects/xxx
 - 220Ω resistors (for RGB LED current limiting)  
 - 5V Power Supply (USB or external source)  
 
+(Used modules are examples — equivalents should work as well.)
+
 ---
 
 ## 📜 License

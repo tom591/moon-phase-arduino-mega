@@ -1,5 +1,7 @@
 # 🌙 moon-phase-arduino-mega  
-### Moon phase visualization on TFT display + day phase indication using RGB LED and RTC module  
+### Moon phase visualization on TFT display + day phase indication using RGB LED and RTC module
+A simple Arduino-based moon phase display built for makers and electronics enthusiasts.
+
 by Tom Salaj  
 
 ---
@@ -113,14 +115,14 @@ This means:
 
 - The moon phase visualization is aligned to the 2026 cycle.
 - It is not based on real-time astronomical calculations.
-- Over other years, minor shifts may appear.
+- In other years, minor shifts may appear.
 
 The same applies to sunrise and sunset indication times:
 - The defined time windows may shift slightly forward or backward by a few days in different years.
 - This is expected behavior and does not affect the overall functionality.
 
-This project is **not an astronomical precision instrument**.  
-It is a maker-oriented Arduino build designed for learning, experimentation, and visual enjoyment.
+This project is **not an astronomical precision instrument.**
+It is a maker-oriented Arduino build — created for learning, experimentation, and visual enjoyment.
 
 ---
 
@@ -154,7 +156,7 @@ https://fritzing.org/projects/xxx
 - 2.0" TFT Display (176x220)  
 - DS3231 RTC Module  
 - RGB LED (+ 220Ω resistors)  
-- Power supply of your choice  
+- 5V Power Supply (USB or external source)
 
 ---
 

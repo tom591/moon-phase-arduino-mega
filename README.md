@@ -184,6 +184,9 @@ Full build photo gallery → [View Gallery](GALLERY.md)
 Module layout and wiring:  
 https://fritzing.org/projects/xxx
 
+Fritzing project file (.fzz) is also available directly in this repository:  
+[fritzing/moon-phase-arduino-mega.fzz](fritzing/moon-phase-arduino-mega.fzz)
+
 ---
 
 ## 🛠 Hardware Used

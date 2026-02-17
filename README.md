@@ -1,8 +1,15 @@
 # 🌙 moon-phase-arduino-mega  
-### Moon phase visualization on TFT display + day phase indication using RGB LED and RTC module
-A simple Arduino-based moon phase display built for makers and electronics enthusiasts.
+### Moon phase visualization on TFT display + day phase indication using RGB LED and RTC module  
+
+A simple Arduino-based moon phase display built for makers and electronics enthusiasts.  
+
+![Arduino](https://img.shields.io/badge/Arduino-MEGA-00979D?logo=arduino&logoColor=white)
 
 by Tom Salaj  
+
+---
+
+**Status:** Tested and running on Arduino MEGA + 2.0" TFT (176x220)
 
 ---
 
@@ -39,14 +46,14 @@ The **`led_sun.h`** module checks the RTC time every 15 minutes and evaluates on
 
 It is responsible for:
 
-- Initializing the TFT display
-- Initializing the RTC module (DS3231)
-- Reading the current date and time
-- Calculating the day-of-year index
-- Determining the correct moon phase from the lookup table
-- Redrawing the display when the day changes
-- Controlling RGB LED day-phase indication
-- Handling special calendar days
+- Initializing the TFT display  
+- Initializing the RTC module (DS3231)  
+- Reading the current date and time  
+- Calculating the day-of-year index  
+- Determining the correct moon phase from the lookup table  
+- Redrawing the display when the day changes  
+- Controlling RGB LED day-phase indication  
+- Handling special calendar days  
 
 The screen is not continuously recalculated.  
 A full redraw happens only when the day changes, which keeps the system efficient.
@@ -56,10 +63,10 @@ A full redraw happens only when the day changes, which keeps the system efficien
 ## 📂 Details – phases.h
 
 - Moon phase bitmaps were generated using:  
-  https://javl.github.io/image2cpp/
-- Code settings match my TFT display (2.0" 176x220).
-- You can adjust dimensions to match your own TFT.
-- Bitmaps were generated 20px shorter in height to leave space for bottom text on the display (optional).
+  https://javl.github.io/image2cpp/  
+- Code settings match my TFT display (2.0" 176x220).  
+- You can adjust dimensions to match your own TFT.  
+- Bitmaps were generated 20px shorter in height to leave space for bottom text on the display (optional).  
 
 ---
 
@@ -113,15 +120,15 @@ For leap years:
 
 This means:
 
-- The moon phase visualization is aligned to the 2026 cycle.
-- It is not based on real-time astronomical calculations.
-- In other years, minor shifts may appear.
+- The moon phase visualization is aligned to the 2026 cycle.  
+- It is not based on real-time astronomical calculations.  
+- In other years, minor shifts may appear.  
 
 The same applies to sunrise and sunset indication times:
-- The defined time windows may shift slightly forward or backward by a few days in different years.
-- This is expected behavior and does not affect the overall functionality.
+- The defined time windows may shift slightly forward or backward by a few days in different years.  
+- This is expected behavior and does not affect the overall functionality.  
 
-This project is **not an astronomical precision instrument.**
+This project is **not an astronomical precision instrument.**  
 It is a maker-oriented Arduino build — created for learning, experimentation, and visual enjoyment.
 
 ---
@@ -156,7 +163,7 @@ https://fritzing.org/projects/xxx
 - 2.0" TFT Display (176x220)  
 - DS3231 RTC Module  
 - RGB LED (+ 220Ω resistors)  
-- 5V Power Supply (USB or external source)
+- 5V Power Supply (USB or external source)  
 
 ---
 
@@ -167,8 +174,11 @@ Use freely, modify as needed. No warranty provided.
 
 ---
 
-## ✨ Final Words
+## 🚀 Final Words
 
-Learn, code, enjoy — good luck!  
+**Learn, code, enjoy — good luck!**  
+*Tom Salaj*
 
-**Tom Salaj**
+<a href="https://www.buymeacoffee.com/tomsalaj" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="120" alt="Buy Me a Coffee">
+</a>

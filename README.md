@@ -31,6 +31,26 @@ The **`led_sun.h`** module checks the RTC time every 15 minutes and evaluates on
 
 ---
 
+## 🧠 Main File – moon_phase.ino
+
+`moon_phase.ino` is the main control file of the project.
+
+It is responsible for:
+
+- Initializing the TFT display
+- Initializing the RTC module (DS3231)
+- Reading the current date and time
+- Calculating the day-of-year index
+- Determining the correct moon phase from the lookup table
+- Redrawing the display when the day changes
+- Controlling RGB LED day-phase indication
+- Handling special calendar days
+
+The screen is not continuously recalculated.  
+A full redraw happens only when the day changes, which keeps the system efficient.
+
+---
+
 ## 📂 Details – phases.h
 
 - Moon phase bitmaps were generated using:  
@@ -79,6 +99,39 @@ static const SpecialDay SPECIAL_DAYS[] = {
 
 To add more dates, simply follow the same pattern.  
 If you do not need this feature, remove the entries.
+
+---
+
+## 📅 Year Handling & Time Accuracy
+
+The project currently uses a precomputed moon phase table for the year **2026 (365 days)**.
+
+For leap years:
+- February 29 is internally skipped to keep alignment with the 365-day table.
+
+This means:
+
+- The moon phase visualization is aligned to the 2026 cycle.
+- It is not based on real-time astronomical calculations.
+- Over other years, minor shifts may appear.
+
+The same applies to sunrise and sunset indication times:
+- The defined time windows may shift slightly forward or backward by a few days in different years.
+- This is expected behavior and does not affect the overall functionality.
+
+This project is **not an astronomical precision instrument**.  
+It is a maker-oriented Arduino build designed for learning, experimentation, and visual enjoyment.
+
+---
+
+## 🌍 Daylight Saving Time (DST)
+
+Daylight Saving Time is not handled automatically.
+
+If DST changes in your region:
+- Update the RTC module manually.
+
+The RTC keeps raw time and does not adjust itself.
 
 ---
 

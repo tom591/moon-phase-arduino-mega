@@ -31,5 +31,5 @@
 </p>
 
 <p align="center">
-  <a href="photos/13.jpg"><img src="photos/13.jpg" width="400"></a>
+  <a href="photos/12.jpg"><img src="photos/12.jpg" width="600"></a>
 </p>

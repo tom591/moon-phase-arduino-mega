@@ -3,9 +3,9 @@
 
 A simple Arduino-based moon phase display built for makers and electronics enthusiasts.  
 
-![Arduino](https://img.shields.io/badge/Arduino-MEGA-00979D?logo=arduino&logoColor=white)
-
 by Tom Salaj  
+
+![Arduino](https://img.shields.io/badge/Arduino-MEGA-00979D?logo=arduino&logoColor=white)
 
 ---
 
@@ -152,6 +152,18 @@ If DST changes in your region:
 - Update the RTC module manually.
 
 The RTC keeps raw time and does not adjust itself.
+
+---
+
+## ⚠️ Important – RTC Setup Required
+
+This project is fully dependent on the RTC module (DS3231).
+
+Before running the project, make sure to upload the current date and time to the RTC module.
+
+If the RTC is not set correctly, moon phases, date display, and day-phase LED indication will not work as expected.
+
+The RTC keeps time independently, so it only needs to be set once (unless power is lost or the backup battery is removed).
 
 ---
 

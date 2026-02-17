@@ -177,9 +177,17 @@ https://fritzing.org/projects/xxx
 ## 🛠 Hardware Used
 
 - Arduino MEGA  
-- 2.0" TFT Display (176x220)  
-- DS3231 RTC Module  
-- RGB LED (+ 220Ω resistors)  
+
+- **RTC Module – DS3231 AT24C32**  
+  https://www.laskakit.cz/en/arduino-rtc-hodiny-realneho-casu-ds3231-at24c32/
+
+- **2.0" TFT Display – 176x220, ILI9225, SPI**  
+  https://www.laskakit.cz/en/176x220-barevny-lcd-tft-displej-2-0--spi/
+
+- **Keyes KY-009 RGB SMD LED 5050 Module**  
+  https://www.laskakit.cz/en/keyes--ky-009-rgb-smd-led-5050-modul/
+
+- 220Ω resistors (for RGB LED current limiting)  
 - 5V Power Supply (USB or external source)  
 
 ---

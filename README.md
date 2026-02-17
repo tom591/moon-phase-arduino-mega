@@ -182,7 +182,7 @@ Full build photo gallery → [View Gallery](GALLERY.md)
 ## 🔌 Fritzing
 
 Module layout and wiring:  
-https://fritzing.org/projects/xxx
+[https://forum.fritzing.org/](https://forum.fritzing.org/t/moon-phase-display-arduino-mega-tft-rgb-led/33797)
 
 Fritzing project file (.fzz) is also available directly in this repository:  
 [fritzing/moon-phase-arduino-mega.fzz](fritzing/moon-phase-arduino-mega.fzz)

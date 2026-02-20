@@ -5,7 +5,7 @@ A simple Arduino-based moon phase display built for makers and electronics enthu
 
 by Tom Salaj  
 
-![Arduino](https://img.shields.io/badge/Arduino-MEGA-00979D?logo=arduino&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-MEGA-00979D?logo=arduino&logoColor=white) [![MIT License](https://img.shields.io/badge/license-MIT-green)](https://github.com/tom591/moon-phase-arduino-mega?tab=MIT-1-ov-file)
 
 ---
 
